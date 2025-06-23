@@ -85,10 +85,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                  &mt ESCAPE Q  &kp L  &kp U                  &kp COMMA    &kp PERIOD    &kp F    &kp W        &kp R     &kp Y  &kp P
-                  &mt LGUI E    &kp I  &kp A                  &kp O        &kp MINUS     &kp K    &kp T        &kp N     &kp S  &kp H
-&kp LEFT_CONTROL  &kp Z         &kp X  &kp C                  &kp V        &kp B         &kp G    &kp D        &kp M     &kp J  &kp B  &kp SLASH
-                                       &mt LANGUAGE_5 DELETE  &lt NAV TAB  &kp SPACE     &kp RET  &lt SYM ESC  &kp BSPC
+                  &mt ESCAPE Q  &kp L             &kp U                  &kp COMMA    &kp PERIOD       &kp F    &kp W        &kp R     &kp Y        &kp P
+                  &mt LGUI E    &mt LEFT_SHIFT I  &kp A                  &kp O        &kp MINUS        &kp K    &kp T        &kp N     &mt RSHFT S  &mt RIGHT_WIN H
+&kp LEFT_CONTROL  &kp Z         &kp X             &kp C                  &kp V        &kp SEMICOLON    &kp G    &kp D        &kp M     &kp J        &kp B            &kp SLASH
+                                                  &mt LANGUAGE_5 DELETE  &lt NAV TAB  &kp SPACE        &kp RET  &lt SYM ESC  &kp BSPC
             >;
         };
 
@@ -137,10 +137,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp EXCL     &kp AT       &kp HASH   &kp DLLR  &kp PRCNT    &kp CARET     &kp AMPS        &kp RA(U)   &kp SQT     &kp DQT
-        &kp RA(A)    &trans       &kp RA(S)  &trans    &trans       &kp C_MUTE    &kp LS(RA(N4))  &kp RA(N5)  &kp RA(N4)  &kp RA(O)
-&trans  &kp RA(F18)  &kp RA(F19)  &trans     &trans    &trans       &kp C_VOL_DN  &kp C_VOL_UP    &kp C_PREV  &kp C_NEXT  &kp BSLH   &trans
-                                  &trans     &gif      &mo ADJ      &trans        &kp C_PP        &trans
+        &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET     &kp AMPS      &kp KP_ASTERISK  &kp SQT     &kp DQT
+        &trans    &trans  &trans    &trans    &trans       &kp C_MUTE    &trans        &trans           &trans      &trans
+&trans  &trans    &trans  &trans    &trans    &trans       &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PREV       &kp C_NEXT  &kp BSLH  &trans
+                          &trans    &gif      &mo ADJ      &trans        &kp C_PP      &trans
             >;
         };
 
