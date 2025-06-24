@@ -44,6 +44,31 @@
             key-positions = <11 12 13>;
             bindings = <&tog TVP1>;
         };
+
+        Lang2 {
+            bindings = <&kp LANGUAGE_2>;
+            key-positions = <12 13>;
+        };
+
+        Lang1 {
+            bindings = <&kp LANGUAGE_1>;
+            key-positions = <16 17>;
+        };
+
+        BT0 {
+            bindings = <&bt BT_SEL 0>;
+            key-positions = <5 6>;
+        };
+
+        BT1 {
+            bindings = <&bt BT_SEL 1>;
+            key-positions = <15 16>;
+        };
+
+        BT2 {
+            bindings = <&bt BT_SEL 2>;
+            key-positions = <26 27>;
+        };
     };
 
     macros {
@@ -85,10 +110,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                  &mt ESCAPE Q  &kp L             &kp U                  &kp COMMA    &kp PERIOD       &kp F    &kp W        &kp R     &kp Y        &kp P
-                  &mt LGUI E    &mt LEFT_SHIFT I  &kp A                  &kp O        &kp MINUS        &kp K    &kp T        &kp N     &mt RSHFT S  &mt RIGHT_WIN H
-&kp LEFT_CONTROL  &kp Z         &kp X             &kp C                  &kp V        &kp SEMICOLON    &kp G    &kp D        &kp M     &kp J        &kp B            &kp SLASH
-                                                  &mt LANGUAGE_5 DELETE  &lt NAV TAB  &kp SPACE        &kp RET  &lt SYM ESC  &kp BSPC
+            &mt RC(Q) Q  &kp L           &kp U           &kp COMMA         &kp PERIOD              &kp F                    &kp W              &kp R            &kp Y            &kp P
+            &kp E        &mt LEFT_GUI I  &mt LEFT_ALT A  &mt LEFT_SHIFT O  &kp MINUS               &kp K                    &mt RIGHT_SHIFT T  &mt RIGHT_ALT N  &mt RIGHT_GUI S  &kp H
+&kp ESCAPE  &kp Z        &kp X           &kp C           &kp V             &kp SEMICOLON           &kp G                    &kp D              &kp M            &kp J            &kp B  &kp SLASH
+                                         &kp DELETE      &lt NAV TAB       &mt LEFT_CONTROL RET    &mt RIGHT_CONTROL SPACE  &lt SYM ESC        &kp BSPC
             >;
         };
 
