@@ -69,6 +69,21 @@
             bindings = <&bt BT_SEL 2>;
             key-positions = <26 27>;
         };
+
+        Orchis {
+            bindings = <&kp LC(LA(SPACE))>;
+            key-positions = <34 35>;
+        };
+
+        L0 {
+            bindings = <&to 0>;
+            key-positions = <10 19>;
+        };
+
+        TaskMgr {
+            bindings = <&kp LC(LS(ESCAPE))>;
+            key-positions = <20 31>;
+        };
     };
 
     macros {
