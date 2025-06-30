@@ -101,6 +101,22 @@
                 <&macro_tap>,
                 <&kp G &kp I &kp F>;
         };
+
+        input_myPW: input_myPW {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LSHFT>,
+                <&macro_tap>,
+                <&kp V &kp C &kp X &kp Z &kp NUMBER_1>,
+                <&macro_release>,
+                <&kp LSHFT>,
+                <&macro_tap>,
+                <&kp V &kp C &kp X &kp Z &kp NUMBER_1 &kp NUMBER_2 &kp N0 &kp N9>;
+
+            label = "INPUT_MYPW";
+        };
     };
 
     keymap {
