@@ -84,6 +84,11 @@
             bindings = <&kp LC(LS(ESCAPE))>;
             key-positions = <20 31>;
         };
+
+        macro_imp {
+            bindings = <&input_myPW>;
+            key-positions = <2 7>;
+        };
     };
 
     macros {
