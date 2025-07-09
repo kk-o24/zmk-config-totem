@@ -146,10 +146,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-            &mt RC(Q) Q  &kp L           &kp U           &kp COMMA         &kp PERIOD              &kp F                    &kp W              &kp R            &kp Y  &kp P
-            &kp E        &mt LEFT_GUI I  &mt LEFT_ALT A  &mt LEFT_SHIFT O  &kp MINUS               &kp K                    &mt RIGHT_SHIFT T  &mt RIGHT_ALT N  &kp S  &kp H
-&kp ESCAPE  &kp Z        &kp X           &kp C           &kp V             &kp SEMICOLON           &kp G                    &kp D              &kp M            &kp J  &kp B  &kp SLASH
-                                         &kp DELETE      &lt NAV TAB       &mt LEFT_CONTROL RET    &mt RIGHT_CONTROL SPACE  &lt SYM ESC        &kp BSPC
+            &mt RC(Q) Q     &kp L           &kp U           &kp COMMA         &kp PERIOD              &kp F                    &kp W              &kp R            &kp Y  &kp P
+            &mt LEFT_WIN E  &mt LEFT_GUI I  &mt LEFT_ALT A  &mt LEFT_SHIFT O  &kp MINUS               &kp K                    &mt RIGHT_SHIFT T  &mt RIGHT_ALT N  &kp S  &kp H
+&kp ESCAPE  &kp Z           &kp X           &kp C           &kp V             &kp SEMICOLON           &kp G                    &kp D              &kp M            &kp J  &kp B  &kp SLASH
+                                            &kp DELETE      &lt NAV TAB       &mt LEFT_CONTROL RET    &mt RIGHT_CONTROL SPACE  &lt SYM ESC        &kp BSPC
             >;
         };
 
