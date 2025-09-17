@@ -121,6 +121,22 @@
 
             label = "INPUT_MYPW";
         };
+
+        input_myPW2: new_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap>,
+                <&kp N7 &kp N6 &kp N5 &kp N4 &kp Z &kp X &kp C &kp V>,
+                <&macro_press>,
+                <&kp LSHFT>,
+                <&macro_tap>,
+                <&kp V &kp C &kp X &kp Z &kp NUMBER_1>,
+                <&macro_release>,
+                <&kp LEFT_SHIFT>;
+
+            label = "NEW_MACRO";
+        };
     };
 
     keymap {
