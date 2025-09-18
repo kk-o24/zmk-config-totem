@@ -87,24 +87,14 @@
             bindings = <&input_myPW2>;
             key-positions = <14 15>;
         };
+
+        WF_Ex_DL {
+            bindings = <&W_Ex_DL>;
+            key-positions = <25 26>;
+        };
     };
 
     macros {
-        gif: gif {
-            label = "giphy";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp LSHFT>,
-                <&macro_tap>,
-                <&kp N2>,
-                <&macro_release>,
-                <&kp LSHFT>,
-                <&macro_tap>,
-                <&kp G &kp I &kp F>;
-        };
-
         input_myPW: input_myPW {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -135,6 +125,13 @@
                 <&kp LEFT_SHIFT>;
 
             label = "NEW_MACRO";
+        };
+
+        W_Ex_DL: W_Ex_DL {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_ALT &kp F &kp S &kp C>;
+            label = "W_EX_DL";
         };
     };
 
