@@ -95,7 +95,7 @@
 
         BT3 {
             bindings = <&bt BT_SEL 3>;
-            key-positions = <4 3>;
+            key-positions = <3 4>;
         };
     };
 
@@ -116,7 +116,7 @@
             label = "INPUT_MYPW";
         };
 
-        input_myPW2: new_macro {
+        input_myPW2: input_myPW2 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
@@ -129,7 +129,7 @@
                 <&macro_release>,
                 <&kp LEFT_SHIFT>;
 
-            label = "NEW_MACRO";
+            label = "INPUT_MYPW2";
         };
 
         W_Ex_DL: W_Ex_DL {
