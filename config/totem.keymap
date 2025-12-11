@@ -78,7 +78,7 @@
             key-positions = <20 31>;
         };
 
-        macro_imp2 {
+        macro_imp {
             bindings = <&my_PW>;
             key-positions = <14 15>;
         };
