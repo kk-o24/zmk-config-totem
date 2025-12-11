@@ -78,16 +78,6 @@
             key-positions = <20 31>;
         };
 
-        macro_imp {
-            bindings = <&my_PW>;
-            key-positions = <14 15>;
-        };
-
-        WF_Ex_DL {
-            bindings = <&W_Ex_DL>;
-            key-positions = <25 26>;
-        };
-
         BT3 {
             bindings = <&bt BT_SEL 3>;
             key-positions = <3 4>;
