@@ -78,13 +78,8 @@
             key-positions = <20 31>;
         };
 
-        macro_imp {
-            bindings = <&input_myPW>;
-            key-positions = <4 5>;
-        };
-
         macro_imp2 {
-            bindings = <&input_myPW2>;
+            bindings = <&my_PW>;
             key-positions = <14 15>;
         };
 
@@ -100,22 +95,6 @@
     };
 
     macros {
-        input_myPW: input_myPW {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp LSHFT>,
-                <&macro_tap>,
-                <&kp V &kp C &kp X &kp Z &kp NUMBER_1>,
-                <&macro_release>,
-                <&kp LSHFT>,
-                <&macro_tap>,
-                <&kp V &kp C &kp X &kp Z &kp NUMBER_1 &kp NUMBER_2 &kp N0 &kp N9>;
-
-            label = "INPUT_MYPW";
-        };
-
         input_myPW2: input_myPW2 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -137,6 +116,26 @@
             #binding-cells = <0>;
             bindings = <&kp LEFT_ALT &kp F &kp S &kp C>;
             label = "W_EX_DL";
+            wait-ms = <500>;
+            tap-ms = <10>;
+        };
+
+        my_PW: my_PW {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap>,
+                <&kp NUMBER_2 &kp NUMBER_3 &kp N4 &kp N5>,
+                <&macro_press>,
+                <&kp LSHFT>,
+                <&macro_tap>,
+                <&kp NUMBER_1 &kp Z &kp X &kp C &kp V>,
+                <&macro_release>,
+                <&kp LEFT_SHIFT>,
+                <&macro_tap>,
+                <&kp Z &kp X &kp C &kp V>;
+
+            label = "MY_PW";
         };
     };
 
