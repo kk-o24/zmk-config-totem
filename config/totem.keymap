@@ -84,51 +84,6 @@
         };
     };
 
-    macros {
-        input_myPW2: input_myPW2 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_tap>,
-                <&kp N7 &kp N6 &kp N5 &kp N4 &kp Z &kp X &kp C &kp V>,
-                <&macro_press>,
-                <&kp LSHFT>,
-                <&macro_tap>,
-                <&kp V &kp C &kp X &kp Z &kp NUMBER_1>,
-                <&macro_release>,
-                <&kp LEFT_SHIFT>;
-
-            label = "INPUT_MYPW2";
-        };
-
-        W_Ex_DL: W_Ex_DL {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LEFT_ALT &kp F &kp S &kp C>;
-            label = "W_EX_DL";
-            wait-ms = <500>;
-            tap-ms = <10>;
-        };
-
-        my_PW: my_PW {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_tap>,
-                <&kp N2 &kp N3 &kp N4 &kp N5>,
-                <&macro_press>,
-                <&kp LSHFT>,
-                <&macro_tap>,
-                <&kp N1 &kp Z &kp X &kp C &kp V>,
-                <&macro_release>,
-                <&kp LEFT_SHIFT>,
-                <&macro_tap>,
-                <&kp Z &kp X &kp C &kp V>;
-
-            label = "MY_PW";
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
