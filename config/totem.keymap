@@ -83,7 +83,7 @@
             key-positions = <3 4>;
         };
 
-        Input_PW {
+        Input_my_PW {
             bindings = <&my_PW>;
             key-positions = <14 15>;
         };
