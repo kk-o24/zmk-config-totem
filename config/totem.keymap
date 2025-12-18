@@ -82,6 +82,31 @@
             bindings = <&bt BT_SEL 3>;
             key-positions = <3 4>;
         };
+
+        Input_PW {
+            bindings = <&my_PW>;
+            key-positions = <14 15>;
+        };
+    };
+
+    macros {
+        my_PW: my_PW {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap>,
+                <&kp N2 &kp N3 &kp N4 &kp N5>,
+                <&macro_press>,
+                <&kp LSHIFT>,
+                <&macro_tap>,
+                <&kp N1 &kp Z &kp X &kp C &kp V>,
+                <&macro_release>,
+                <&kp LSHIFT>,
+                <&macro_tap>,
+                <&kp Z &kp X &kp C &kp V>;
+
+            label = "MY_PW";
+        };
     };
 
     keymap {
