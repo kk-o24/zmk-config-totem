@@ -29,23 +29,40 @@
 };
 
 / {
-    combos {
-        compatible = "zmk,combos";
+        Input_my_PW {
+            bindings = <&my_PW>;
+            key-positions = <14 15>;
+        };
 
-        combo_tvp {
+        L0 {
+            bindings = <&to 0>;
+            key-positions = <10 19>;
+        };
+
+        L4 {
             timeout-ms = <100>;
             key-positions = <11 12 13>;
             bindings = <&tog TVP1>;
         };
 
-        Lang2 {
+        ab12 {
             bindings = <&kp LANGUAGE_2>;
             key-positions = <12 13>;
         };
 
-        Lang1 {
+        Hiragana {
             bindings = <&kp LANGUAGE_1>;
             key-positions = <16 17>;
+        };
+
+        Orchis {
+            bindings = <&kp LC(LA(SPACE))>;
+            key-positions = <34 35>;
+        };
+
+        TaskMgr {
+            bindings = <&kp LC(LS(ESCAPE))>;
+            key-positions = <20 31>;
         };
 
         BT0 {
@@ -63,29 +80,9 @@
             key-positions = <26 27>;
         };
 
-        Orchis {
-            bindings = <&kp LC(LA(SPACE))>;
-            key-positions = <34 35>;
-        };
-
-        L0 {
-            bindings = <&to 0>;
-            key-positions = <10 19>;
-        };
-
-        TaskMgr {
-            bindings = <&kp LC(LS(ESCAPE))>;
-            key-positions = <20 31>;
-        };
-
         BT3 {
             bindings = <&bt BT_SEL 3>;
             key-positions = <3 4>;
-        };
-
-        Input_my_PW {
-            bindings = <&my_PW>;
-            key-positions = <14 15>;
         };
     };
 
