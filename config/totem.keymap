@@ -87,11 +87,6 @@
             bindings = <&bt BT_SEL 3>;
             key-positions = <3 4>;
         };
-
-        Input_my_PW1 {
-            bindings = <&my_PW>;
-            key-positions = <25 26>;
-        };
     };
 
     macros {
