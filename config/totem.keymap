@@ -89,31 +89,13 @@
         };
 
         Input_my_PW1 {
-            bindings = <&my_PW1>;
+            bindings = <&my_PW>;
             key-positions = <25 26>;
         };
     };
 
     macros {
-        my_PW: my_PW {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_tap>,
-                <&kp N2 &kp N3 &kp N4 &kp N5>,
-                <&macro_press>,
-                <&kp LSHIFT>,
-                <&macro_tap>,
-                <&kp N1 &kp Z &kp X &kp C &kp V>,
-                <&macro_release>,
-                <&kp LSHIFT>,
-                <&macro_tap>,
-                <&kp Z &kp X &kp C &kp V>;
-
-            label = "MY_PW";
-        };
-
-        my_PW1: myPW1 {
+        my_PW: myPW1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
