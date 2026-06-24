@@ -87,10 +87,15 @@
             bindings = <&bt BT_SEL 3>;
             key-positions = <3 4>;
         };
+
+        egaty1975 {
+            bindings = <&egaty1975>;
+            key-positions = <4 5>;
+        };
     };
 
     macros {
-        my_PW: myPW1 {
+        my_PW: my_PW {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
@@ -104,7 +109,17 @@
                 <&kp LSHIFT>,
                 <&macro_tap>;
 
-            label = "MYPW1";
+            label = "my_PW";
+        };
+
+        egaty1975: egaty1975 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap>,
+                <&kp H &kp P &kp LS(A) &kp H &kp LS(N) &kp LS(I) &kp N6 &kp N4 &kp R &kp M &kp G &kp LS(I)>;
+
+            label = "EGATY1975";
         };
     };
 
