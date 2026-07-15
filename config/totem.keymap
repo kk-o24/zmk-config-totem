@@ -92,6 +92,11 @@
             bindings = <&egaty1975>;
             key-positions = <4 5>;
         };
+
+        ns_xn {
+            bindings = <&ns_xn>;
+            key-positions = <17 18>;
+        };
     };
 
     macros {
@@ -117,9 +122,17 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_tap>,
-                <&kp H &kp P &kp LS(A) &kp H &kp LS(N) &kp LS(I) &kp N6 &kp N4 &kp R &kp M &kp G &kp LS(I)>;
+                <&kp LS(B) &kp M &kp LS(H) &kp N8 &kp LS(G) &kp W &kp S &kp LS(C) &kp N5 &kp LS(U) &kp N2 &kp N5>;
 
             label = "EGATY1975";
+        };
+
+        ns_xn: ns_xn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap>, <&kp X &kp N>;
+
+            label = "NS_XN";
         };
     };
 
