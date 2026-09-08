@@ -105,14 +105,7 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_tap>,
-                <&kp NUMBER_6 &kp N5 &kp NUMBER_4 &kp Z &kp X &kp C &kp V>,
-                <&macro_press>,
-                <&kp LSHIFT>,
-                <&macro_tap>,
-                <&kp Z &kp X &kp C &kp V &kp N1>,
-                <&macro_release>,
-                <&kp LSHIFT>,
-                <&macro_tap>;
+                <&kp N9 &kp N0 &kp N8 &kp LS(Z) &kp LS(X) &kp LS(C) &kp LS(V) &kp LS(N1) &kp Z &kp X &kp C &kp V>;
 
             label = "my_PW";
         };
@@ -122,7 +115,7 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_tap>,
-                <&kp LS(B) &kp M &kp LS(H) &kp N8 &kp LS(G) &kp W &kp S &kp LS(C) &kp N5 &kp LS(U) &kp N2 &kp N5>;
+                <&kp N6 &kp N5 &kp N4 &kp Z &kp X &kp C &kp V &kp LS(Z) &kp LS(X) &kp LS(C) &kp LS(V) &kp LS(N1)>;
 
             label = "EGATY1975";
         };
