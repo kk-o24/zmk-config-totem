@@ -151,10 +151,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                  &kp Q  &kp L  &kp U           &kp COMMA         &kp PERIOD              &kp F                    &kp W              &kp R            &kp Y  &kp P
-                  &kp E  &kp I  &mt LEFT_ALT A  &mt LEFT_SHIFT O  &kp MINUS               &kp K                    &mt RIGHT_SHIFT T  &mt RIGHT_ALT N  &kp S  &kp H
-&mt LEFT_WIN ESC  &kp Z  &kp X  &kp C           &kp V             &kp SEMICOLON           &kp G                    &kp D              &kp M            &kp J  &kp B  &kp SLASH
-                                &kp DELETE      &lt NAV TAB       &mt LEFT_CONTROL RET    &mt RIGHT_CONTROL SPACE  &lt SYM LS(CAPS)   &kp BSPC
+                  &kp Q  &kp L  &kp U           &kp COMMA                &kp PERIOD       &kp F                    &kp W               &kp R            &kp Y  &kp P
+                  &kp E  &kp I  &mt LEFT_ALT A  &mt LEFT_SHIFT O         &kp MINUS        &kp K                    &mt RIGHT_SHIFT T   &mt RIGHT_ALT N  &kp S  &kp H
+&mt LEFT_WIN ESC  &kp Z  &kp X  &kp C           &kp V                    &kp SEMICOLON    &kp G                    &kp D               &kp M            &kp J  &kp B  &kp SLASH
+                                &kp DELETE      &mt LEFT_CONTROL RETURN  &lt 1 TAB        &mt RIGHT_CONTROL SPACE  &lt (SYM) LS(CAPS)  &kp BSPC
             >;
         };
 
@@ -180,7 +180,7 @@
         &kp PRINTSCREEN   &bt BT_CLR  &kp UP        &kp EQUAL  &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_PLUS
         &trans            &kp LEFT    &kp DOWN      &kp RIGHT  &kp LBKT                &kp RBKT               &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_MINUS
 &trans  &kp LEFT_CONTROL  &kp PG_UP   &kp LS(CAPS)  &kp PG_DN  &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_MULTIPLY  &trans
-                                      &trans        &trans     &trans                  &mo ADJ                &kp NUMBER_0  &trans
+                                      &trans        &trans     &trans                  &mo ADJ                &trans        &kp NUMBER_0
             >;
         };
 
@@ -255,10 +255,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &none       &kp LC(LS(L))  &none      &none            &none    &none  &none         &kp LG(UP)      &none          &none
-        &lt TVP2 L  &none          &kp LC(D)  &kp RC(R)        &none    &none  &kp LG(LEFT)  &kp RS(LG(UP))  &kp LG(RIGHT)  &none
-&trans  &none       &kp LC(X)      &kp LC(C)  &mt LG(V) LC(V)  &none    &none  &none         &kp LG(DOWN)    &none          &none  &to 0
-                                   &trans     &trans           &none    &none  &trans        &trans
+        &none       &kp LC(LS(L))  &none      &none              &none    &none  &none         &kp LG(UP)      &none          &none
+        &lt TVP2 L  &none          &kp LC(D)  &kp RC(R)          &none    &none  &kp LG(LEFT)  &kp RS(LG(UP))  &kp LG(RIGHT)  &none
+&trans  &none       &kp LC(X)      &kp LC(C)  &mt (LG(V)) LC(V)  &none    &none  &none         &kp LG(DOWN)    &none          &none  &to 0
+                                   &trans     &trans             &none    &none  &trans        &trans
             >;
         };
 
