@@ -60,7 +60,7 @@
 
         Orchis {
             bindings = <&kp LC(LA(SPACE))>;
-            key-positions = <34 35>;
+            key-positions = <32 37>;
         };
 
         TaskMgr {
